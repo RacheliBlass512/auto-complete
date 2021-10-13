@@ -1,11 +1,9 @@
 import os
-# import time
 from trie import Trie
 
 
 class StoreData:
     __instance = None
-    # _words_dict = {}
     words_dict = {}
     words_trie = Trie()
 
